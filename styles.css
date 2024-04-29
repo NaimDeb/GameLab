@@ -217,7 +217,21 @@ text-align: end;
 
 /* Réalisations */
 
+.real_div{
+    padding: 90px;
+    width: 250px;
+    height: 150px;
 
+
+}
+
+.img_real{
+    object-fit: cover;
+    width: 450px;
+    height: 280px;
+    background: rgba(0, 0, 0, 0.571)
+
+}
 
 
 /* Fonts */
