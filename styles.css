@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.marginauto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
+}
+
+
+
+.white{
+    color: white;
+}
+
+/* Partie header */
+header{
+    background-color: #FFF5E0;
+    justify-content: center;
+    gap: 100px;
+}
+
+.header_list{
+    gap: 50px;
+    list-style: none;    
+    font-size: larger;
+}
+
+.header_list li{
+    transition: all 0.44s ease-in-out;
+
+}
+
+.header_list li:hover{
+    font-size: 125%;
+    margin: 0 50px;
+    color: #41B06E;
+
+}
+
+.logo{
+    width: 100px;
+    margin: 10px;
+}
+
+
+/* Partie Hero */
+
+.hero{
+    background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3da7d31f-8479-4d32-8a2e-24d012263a77/de3vi9c-d65bcab9-3dbf-4c9a-97f8-fb5ea96f94af.png/v1/fill/w_1280,h_800,q_80,strp/pixel_art_background_practice2_by_raisinbreadx_de3vi9c-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvM2RhN2QzMWYtODQ3OS00ZDMyLThhMmUtMjRkMDEyMjYzYTc3XC9kZTN2aTljLWQ2NWJjYWI5LTNkYmYtNGM5YS05N2Y4LWZiNWVhOTZmOTRhZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.A4NUyJzbBU53Xk0nAxkGceanW_29gws459-2svc9sAs);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.herocontent{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.herocontent *{
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    
+}
+
+h2{
+    font-size: 100px;
+    text-wrap: nowrap;
+    text-shadow: black 3px 2px 10px;;
+    margin-bottom: 35px;
+}
+
+.herologo{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+
+
+}
+
+.h1color{
+    width: 450px;
+    background-color: #CA4246;
+    filter: drop-shadow(3px 3px 0px rgba(0,0,0,1));
+    
+
+    background-image: linear-gradient(
+    90deg,
+    #141E46 58%, 
+    #8DECB4 42%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+
+    margin-bottom: -30px;
+
+}
+
+.herotxt{
+    backdrop-filter: blur(2px);
+    background-color: #ffffff3a;
+    width: 100%;
+    height: 400px;
+}
+
+
+.container{
+    display: block;
+}
+
+.btn{
+    background-color: #d0d1d5;
+    color: black;
+    font-size: x-large;
+    font-style: none;
+    text-decoration: none;
+    padding: 15px;
+    text-wrap: nowrap;
+    position: relative;
+    box-shadow: 0 0 0 1px rgb(255, 255, 255),
+                2px 3px 0 3px #565658,
+                0 0 0 5px;
+
+}
+
+.btn:active{
+    top: 2px;
+  }
+
+/* Div des catégories */
+
+.div_categorie{
+    background-color: #141E46;
+    align-items: center;
+
+}
+
+.trianglehaut{
+    background-color: rgba(255, 0, 0, 0);
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -40px;
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    
+    border-bottom: 40px solid #141E46;
+}
+.trianglebas{
+    background-color: rgba(255, 0, 0, 0);
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -40px;
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    
+    border-top: 40px solid #141E46;
+}
+
+.divtext{
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    text-shadow: 5px 5px 0 black;
+ 
+    text-align: center;
+}
+
+/* Services */
+
+.services{
+    padding: 60px;
+    background-color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Fonts */
+
+
+.josefin-sans-gras {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.pixel {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vt323 {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
