@@ -1,1 +1,1 @@
-fetch("")
+AOS.init();
