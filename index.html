@@ -1,82 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Intégration de mon JS et CSS -->
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+
     <title>GameLab</title>
 
-    <!-- Icones Fontawesome -->
+    <!-- Intégration Icones Fontawesome -->
     <script src="https://kit.fontawesome.com/e020c679bf.js" crossorigin="anonymous"></script>
 
-    <!-- AOS -->
+    <!-- Intégration AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
     <!-- Header -->
-    <header class="flex">
+    <header class="flex align_center header">
         <img src="assets/Logobi.png" alt="Logo de Gamelab" class="logo">
         <nav>
-            <ul class="header_list flex josefin-sans-gras">
-                <li><a href=""></a>Tytoane</li>
-                <li><a href=""></a>Tyliane</li>
+            <ul class="header_list flex josefin-sans-gras ">
+                <li><a href="#Services"></a>Services</li>
+                <li><a href="#Realisations"></a>Réalisations</li>
                 <li><a href=""></a>Tia</li>
                 <li><a href=""></a>Contact</li>
             </ul>
         </nav>
     </header>
+
+
+
     <!-- Hero -->
-    <section class="hero marginauto">
+
+
+    <section class="hero marginauto" data-aos="zoom-out-up" data-aos-duration="1500">
+
+
         <div class="herocontent">
 
-            <img src="assets/Logobi.png" alt="Logo de Gamelab" class="herologo">
+            <img src="assets/Logobi.png" alt="Logo de Gamelab" class="herologo container">
             
             <div class="herotxt">
                 <h1 class="h1color marginauto pixel">GameLab</h1>
                 <h2 class="white josefin-sans-gras">Créez votre propre jeu vidéo !</h2>
-
                 <div class="container">
                     <!-- Bouton call to action -->
-                    <a href="" id="calltoaction" class="btn vt323">Commencez votre aventure maintenant</a>
+                    <a href="" id="calltoaction" class="btn btn_hero vt323">Commencez votre aventure maintenant</a>
                 </div>
             </div>
 
         </div>
     </section>
+
+
+
     <!-- Main -->
+
+
     <main>
-        <!-- partie Services -->
+
+
+    <!-- partie Services -->
         <div class="div_categorie" id="Services">
             <div class="trianglehaut"></div>
-            <h3 class=" divtext white vt323">Services</h3>
+            <h3 class=" divtext white vt323 container">Services</h3>
             <div class="trianglebas"></div>
         </div>
-        <div class="services">
+
+
+        <section class="services">
             
 
             <p class="service_left" data-aos="fade-left" data-aos-duration=1000>"Aucun compromis entre innovation, qualité et raffinement."</p>
             <p class="service_right" data-aos="fade-right"data-aos-duration=1000>"Profitez des meilleurs design de jeux vidéos"</p>
             <p class="service_left" data-aos="fade-left"data-aos-duration=1000>"Conseils personnalisés pour l'amélioration de votre projet"</p>
             <p class="service_right" data-aos="fade-right"data-aos-duration=1000>"2D ou 3D, nos game designers et nos illustrateurs sauront donner vie à vos idées."</p>
-        </div>
-<!-- Partie Réalisations -->
+        </section>
+
+
+
+    <!-- Partie Réalisations -->
         <div class="div_categorie" id="Realisations">
             <div class="trianglehaut"></div>
             <h3 class=" divtext white vt323">Réalisations</h3>
             <div class="trianglebas"></div>
         </div>
 
-        <section class="realisations">
 
-            <div class="real_div">
+        <section class="realisations flex" id="realisations">
+
+            <div class="real_case">
+
+                <!-- Image de réalisation -->
                 <img src="https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/ef88dadca13badf9418b26b15aaa431a.jpg?v=1683014991626" alt=""
                 class="img_real">
-                <h3></h3>
-                <p></p>
 
+                <!-- Div texte -->
+                <div class="real_txt">
+                    <h3>Création de personnage de jeu vidéo</h3>
+                    <div class="separateur_mini"></div>
+                    <p>Nous avons aidé notre client à créer son propre personnage de jeu vidéo, en lui fournissant des conseils personnalisés pour le design et l'histoire.</p>
+                    <a href="" class="btn btn_mini">+</a>
+
+                </div>
             </div>
 
         </section>
