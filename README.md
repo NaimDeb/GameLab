@@ -1,3 +1,3 @@
-Non
+Maquette de site pour l'évaluation JS du 02/05/2024 de La Toile d'EmLyon
 
-https://naimdeb.github.io/GameLab/
+Page : https://naimdeb.github.io/GameLab/
