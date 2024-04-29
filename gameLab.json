@@ -1,0 +1,79 @@
+{
+    "nomCommercial": "GameLab",
+    "phraseAccroche": "Créez votre propre jeu vidéo !",
+    "texteCallToAction": "Commencez votre aventure maintenant",
+    "beneficesClients": [
+      "Aucun compromis entre innovation, qualité et raffinement.",
+      "Profitez des meilleurs design de jeux vidéos",
+      "Conseils personnalisés pour l'amélioration de votre projet",
+      "2D ou 3D, nos game designers et nos illustrateurs sauront donner vie à vos idées. "
+    ],
+    "realisations": [
+      {
+        "type": "Création de personnage de jeu vidéo",
+        "description": "Nous avons aidé notre client à créer son propre personnage de jeu vidéo, en lui fournissant des conseils personnalisés pour le design et l'histoire.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/ef88dadca13badf9418b26b15aaa431a.jpg?v=1683014991626"
+      },
+      {
+        "type": "Création de niveau de jeu vidéo",
+        "description": "Nous avons aidé notre client à créer un niveau de jeu vidéo captivant, en utilisant des techniques professionnelles pour un gameplay intéressant et fluide.",
+        "image": "https://glitch.com/edit/#!/banque-d-images-assignement-js?path=gamelabJSON.json%3A19%3A173"
+      },
+      {
+        "type": "Création de scénario de jeu vidéo",
+        "description": "Nous avons aidé notre client à créer un scénario de jeu vidéo passionnant et original, en utilisant des techniques de narration efficaces et innovantes.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/games---Silke-Van-Der-Smissen-2.jpg?v=1683014999625"
+      },
+      {
+        "type": "Création de jeu mobile",
+        "description": "Nous avons aidé notre client à créer un jeu mobile addictif et fun, en lui fournissant des conseils sur le design, le gameplay et la publication.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/1793c57763ac485cfbf42961445ef542.webp?v=1683014974178"
+      },
+      {
+        "type": "Création de jeu en ligne",
+        "description": "Nous avons aidé notre client à créer un jeu en ligne multijoueur, en utilisant des techniques de développement web avancées et en fournissant des conseils sur la gestion de serveurs et la sécurité.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/game-designer-agency-CONTENT-2019.jpg?v=1683014999053"
+      },
+      {
+        "type": "Création de trailer de jeu vidéo",
+        "description": "Nous avons aidé notre client à créer un trailer de jeu vidéo percutant et efficace, en utilisant des techniques de montage vidéo professionnelles et en fournissant des conseils sur la mise en avant des points forts du jeu.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/141021-ryse-son-of-rome.jpg?v=1683016440270"
+      },
+      {
+        "type": "Création de design d'interface de jeu vidéo",
+        "description": "Nous avons aidé notre client à créer un design d'interface de jeu vidéo ergonomique et esthétique, en lui fournissant des conseils sur l'expérience utilisateur et l'harmonisation visuelle.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/1520099184717.jpg?v=1683016502207"
+      },
+      {
+        "type": "Création de musique de jeu vidéo",
+        "description": "Nous avons aidé notre client à créer une musique de jeu vidéo immersive et adaptée à l'univers du jeu, en utilisant des techniques de composition et d'orchestration professionnelle.",
+        "image": "https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/Sans%20titre.jpg?v=1683016557937"
+      },
+      {
+        "type": "Création de jeu de réalité virtuelle",
+        "description": "Nous avons aidé notre client à créer un jeu de réalité virtuelle immersif et innovant, en utilisant des techniques de développement spécifiques à la VR et en fournissant des conseils sur l'ergonomie et l'expérience utilisateur.",
+        "image": " https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/Sci-Fi-VR-Gaming-Cover-HTC.webp?v=1683016608768"
+      }
+    ],
+    "temoignagesClients": [
+      {
+        "prenom": "Martin",
+        "typePrestation": "Création de personnages",
+        "commentaire": "Je suis très satisfait de la qualité de travail fournie par l'équipe de création de personnages. Leur attention aux détails et leur créativité ont donné vie à des personnages incroyables.",
+        "note": 4
+      },
+      {
+        "prenom": "Sophie",
+        "typePrestation": "Développement de jeu",
+        "commentaire": "Je recommande fortement cette entreprise pour le développement de jeux. Ils ont su comprendre mes besoins et ont su m'offrir un jeu de grande qualité.",
+        "note": 5
+      },
+      {
+        "prenom": "Antoine",
+        "typePrestation": "Création de scénarios",
+        "commentaire": "Je suis très impressionné par le travail de l'équipe pour la création de scénarios. Ils ont su intégrer mes idées tout en offrant des solutions créatives et originales.",
+        "note": 4
+      }
+    ]
+  }
+  
