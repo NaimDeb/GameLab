@@ -16,6 +16,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <!-- Intégration Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
 </head>
 <body>
     <!-- Header -->
@@ -174,17 +178,43 @@
 
 <section class="section_temoignage ">
 
-    <div class="flex align_center justify_center">
+    <div class="flex align_center justify_center temoignage_div">
 
-        <div class="carte_temoignage ">
+        <!-- Témoignage Carte -->
+        <div class="carte_temoignage" data-aos="fade-up-right" data-aos-duration="800">
             <p class="prenom_temoignage josefin-sans-gras">Prénom</p>
             <p class="typePres_temoignage josefin-sans-gras">Création de personnages</p>
             <p class="commentaire_temoignage josefin-sans">Je suis très satisfait de la qualité de travail fournie par l'équipe de création de personnages. Leur attention aux détails et leur créativité ont donné vie à des personnages incroyables.</p>
         </div>
 
+        <!-- Témoignage star rating -->
+        <div class="rating_temoignage flex" data-aos="fade-up-left" data-aos-duration="1000">
+            <label class="star">★</label>
+            <label class="star">★</label>
+            <label class="star">★</label>
+            <label class="star">☆</label>
+            <label class="star">☆</label>
+        </div>
 
+    </div>
+
+
+    <div class="flex align_center justify_center">
+
+        <!-- Témoignage star rating -->
         <div class="rating_temoignage">
-            <label for="">★★★☆☆</label>
+            <label for="">★</label>
+            <label for="">★</label>
+            <label for="">★</label>
+            <label for="">☆</label>
+            <label for="">☆</label>
+        </div>
+
+        <!-- Témoignage Carte -->
+        <div class="carte_temoignage ">
+            <p class="prenom_temoignage josefin-sans-gras">Josias</p>
+            <p class="typePres_temoignage josefin-sans-gras">Aide sur Ultrakill</p>
+            <p class="commentaire_temoignage josefin-sans">Je suis très satisfait de la qualité de travail fournie par l'équipe de création de personnages. Leur attention aux détails car je suis une merde à ce jeu.</p>
         </div>
 
     </div>
@@ -192,11 +222,76 @@
 
 </section>
 
-        <!--  -->
+<!-- Section Partenaires -->
+
+<div class="div_categorie" id="Partenaires">
+    <div class="trianglehaut"></div>
+    <h3 class=" divtext white vt323">Nos partenaires</h3>
+    <div class="trianglebas"></div>
+</div>
+
+
+<section class="flex section_partenaires align_center justify_center wrap" id="partenaires_content">
+
+    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c6/FromSoftware_Logo.svg/2560px-FromSoftware_Logo.svg.png" 
+    alt=""
+    class="partenaire_img">
+
+</section>
+
+<!-- Section Contact -->
+
+<div class="div_categorie" id="Contact">
+    <div class="trianglehaut"></div>
+    <h3 class=" divtext white vt323">Nous contacter</h3>
+    <div class="trianglebas"></div>
+</div>
+
+<section class="contact_section flex josefin-sans-gras">
+
+    <div class="contact">
+        <p><i class="fa-solid fa-map"></i> 7 Rue Terrenoire, Saint-Etienne, France</p>
+        <p><i class="fa-solid fa-phone"></i> +33 7 55 55 55 55 </p>
+
+
+        <a href="form.html" class="btnMail">Envoyez nous un mail</a>
+
+        <nav class="flex contact_media">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </nav>
+    </div>
+
+    <div id="map">
+    </div>
+
+</section>
+
+
+
+
+
 
     </main>
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+        <nav class="flex align_center">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </nav>
+
+        <div class="flex">
+        <p>Site créé par Naïm DEBARD, pour La Toile d'EmLyon</p>
+
+        <a href="#" class="returnbtn"><i class="fa-solid fa-caret-up"></i></a>
+
+        </div>
+
+    </footer>
 
 
     
