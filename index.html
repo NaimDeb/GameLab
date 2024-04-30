@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Intégration de mon JS et CSS -->
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
 
     <title>GameLab</title>
 
-    <!-- Intégration Icones Fontawesome -->
+    <!-- Intégration des Icones Fontawesome -->
     <script src="https://kit.fontawesome.com/e020c679bf.js" crossorigin="anonymous"></script>
 
-    <!-- Intégration AOS -->
+    <!-- Intégration de l'API AOS (Animate On Scroll) -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <!-- Intégration Leaflet -->
+    <!-- Intégration API Leaflet (carte) -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
@@ -61,7 +62,9 @@
     <main>
 
 
-    <!-- partie Services -->
+<!-- partie Services -->
+
+    <!-- Separateur de section -->
         <div class="div_categorie" id="Services">
             <div class="trianglehaut"></div>
             <h3 class=" divtext white vt323 container">Services</h3>
@@ -69,11 +72,14 @@
         </div>
 
 
+
         <section class="services"></section>
 
 
 
-    <!-- Partie Réalisations -->
+<!-- Partie Réalisations -->
+
+    <!-- Separateur de section -->
         <div class="div_categorie" id="Realisations">
             <div class="trianglehaut"></div>
             <h3 class=" divtext white vt323">Réalisations</h3>
@@ -92,43 +98,48 @@
 
 <!-- Section Temoignages -->
 
-<div class="div_categorie" id="Temoignages">
-    <div class="trianglehaut"></div>
-    <h3 class=" divtext white vt323">Témoignages clients</h3>
-    <div class="trianglebas"></div>
-</div>
+    <!-- Separateur de section -->
+    <div class="div_categorie" id="Temoignages">
+        <div class="trianglehaut"></div>
+        <h3 class=" divtext white vt323">Témoignages clients</h3>
+        <div class="trianglebas"></div>
+    </div>
 
 
 <section class="section_temoignage "></section>
 
 <!-- Section Partenaires -->
 
-<div class="div_categorie" id="Partenaires">
-    <div class="trianglehaut"></div>
-    <h3 class=" divtext white vt323">Nos partenaires</h3>
-    <div class="trianglebas"></div>
-</div>
+    <!-- Separateur de section -->
+    <div class="div_categorie" id="Partenaires">
+        <div class="trianglehaut"></div>
+        <h3 class=" divtext white vt323">Nos partenaires</h3>
+        <div class="trianglebas"></div>
+    </div>
 
 
 <section class="flex section_partenaires align_center justify_center wrap" id="partenaires_content"></section>
 
 <!-- Section Contact -->
 
-<div class="div_categorie" id="Contact">
-    <div class="trianglehaut"></div>
-    <h3 class=" divtext white vt323">Nous contacter</h3>
-    <div class="trianglebas"></div>
-</div>
+    <!-- Separateur de section -->
+    <div class="div_categorie" id="Contact">
+        <div class="trianglehaut"></div>
+        <h3 class=" divtext white vt323">Nous contacter</h3>
+        <div class="trianglebas"></div>
+    </div>
 
 <section class="contact_section flex josefin-sans-gras">
 
+    <!-- Texte contact -->
     <div class="contact">
         <p><i class="fa-solid fa-map"></i> 7 Rue Terrenoire, Saint-Etienne, France</p>
         <p><i class="fa-solid fa-phone"></i> +33 7 55 55 55 55 </p>
 
-
+        <!-- Bouton emmenant vers le form -->
         <a href="form.html" class="btnMail">Envoyez nous un mail</a>
 
+        <!-- Boutons vers médias sociaux -->
         <nav class="flex contact_media">
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
@@ -137,8 +148,8 @@
         </nav>
     </div>
 
-    <div id="map">
-    </div>
+    <!-- Intégration map Leaflet -->
+    <div id="map"></div>
 
 </section>
 
