@@ -37,3 +37,4 @@ window.addEventListener("scroll", () => {
 });
 
 
+//Rajouter photo sur témoignage avec première lettre du nom (element.nom[0])
