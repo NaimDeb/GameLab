@@ -1,1 +1,3 @@
 BUG : Le header initialement ne se met pas a la couleur demandée, ne marche qu'après un scroll
+
+Rajouter photo sur témoignage avec première lettre du nom (element.nom[0])

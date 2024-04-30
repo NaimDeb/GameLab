@@ -24,13 +24,14 @@
 <body>
     <!-- Header -->
     <header class="flex align_center header">
-        <img src="assets/Logobi.png" alt="Logo de Gamelab" class="logo">
+        <a href="#"><img src="assets/Logobi.png" alt="Logo de Gamelab" class="logo"></a>
         <nav>
             <ul class="header_list flex josefin-sans-gras ">
-                <li><a href="#Services"></a>Services</li>
-                <li><a href="#Realisations"></a>Réalisations</li>
-                <li><a href=""></a>Tia</li>
-                <li><a href=""></a>Contact</li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Realisations">Réalisations</a></li>
+                <li><a href="#Temoignages">Témoignages</a></li>
+                <li><a href="#Partenaires">Partenaires</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -40,21 +41,14 @@
     <!-- Hero -->
 
 
-    <section class="hero marginauto" data-aos="zoom-out-up" data-aos-duration="1500">
+     <section class="hero marginauto"> <!--data-aos="zoom-out-up" data-aos-duration="1500"> -->
 
 
         <div class="herocontent">
 
             <img src="assets/Logobi.png" alt="Logo de Gamelab" class="herologo container">
             
-            <div class="herotxt">
-                <h1 class="h1color marginauto pixel">GameLab</h1>
-                <h2 class="white josefin-sans-gras">Créez votre propre jeu vidéo !</h2>
-                <div class="container">
-                    <!-- Bouton call to action -->
-                    <a href="" id="calltoaction" class="btn btn_hero vt323">Commencez votre aventure maintenant</a>
-                </div>
-            </div>
+            <div class="herotxt" id="hero_content"></div>
 
         </div>
     </section>
@@ -75,12 +69,7 @@
         </div>
 
 
-        <section class="services">
-            <p class="service_left" data-aos="fade-left" data-aos-duration=1000>"Aucun compromis entre innovation, qualité et raffinement."</p>
-            <p class="service_right" data-aos="fade-right"data-aos-duration=1000>"Profitez des meilleurs design de jeux vidéos"</p>
-            <p class="service_left" data-aos="fade-left"data-aos-duration=1000>"Conseils personnalisés pour l'amélioration de votre projet"</p>
-            <p class="service_right" data-aos="fade-right"data-aos-duration=1000>"2D ou 3D, nos game designers et nos illustrateurs sauront donner vie à vos idées."</p>
-        </section>
+        <section class="services"></section>
 
 
 
@@ -95,74 +84,8 @@
 
         <section class="realisations flex wrap" id="realisation_content">
 
-            <!-- Case réalisation -->
-            <div class="real_case">
-
-                <!-- Image de réalisation -->
-                <img src="https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/ef88dadca13badf9418b26b15aaa431a.jpg?v=1683014991626" alt=""
-                class="img_real">
-
-                <!-- Div texte -->
-                <div class="real_txt white ">
-                    <h3 class="josefin-sans-gras">Création de personnage de jeu vidéo</h3>
-                    <div class="separateur_mini"></div>
-                    <p class="josefin-sans">Nous avons aidé notre client à créer son propre personnage de jeu vidéo, en lui fournissant des conseils personnalisés pour le design et l'histoire.</p>
-                    <a href="" class="btn btn_mini"><i class="fa-solid fa-plus"></i></a>
-
-                </div>
-            </div>
-            <!-- Case réalisation Fin -->
-
-            <!-- Case réalisation -->
-            <div class="real_case">
-
-                <!-- Image de réalisation -->
-                <img src="https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/games---Silke-Van-Der-Smissen-2.jpg?v=1683014999625" alt=""
-                class="img_real">
-
-                <!-- Div texte -->
-                <div class="real_txt white ">
-                    <h3 class="josefin-sans-gras">Création de scénario de jeu vidéo</h3>
-                    <div class="separateur_mini"></div>
-                    <p class="josefin-sans">Nous avons aidé notre client à créer un scénario de jeu vidéo passionnant et original, en utilisant des techniques de narration efficaces et innovantes.</p>
-                    <a href="" class="btn btn_mini"><i class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
-            <!-- Case réalisation Fin -->
 
 
-            <div class="real_case">
-
-                <!-- Image de réalisation -->
-                <img src="https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/ef88dadca13badf9418b26b15aaa431a.jpg?v=1683014991626" alt=""
-                class="img_real">
-
-                <!-- Div texte -->
-                <div class="real_txt white ">
-                    <h3 class="josefin-sans-gras">Création de personnage de jeu vidéo</h3>
-                    <div class="separateur_mini"></div>
-                    <p class="josefin-sans">Nous avons aidé notre client à créer son propre personnage de jeu vidéo, en lui fournissant des conseils personnalisés pour le design et l'histoire.</p>
-                    <a href="" class="btn btn_mini"><i class="fa-solid fa-plus"></i></a>
-
-                </div>
-            </div>
-
-
-            <div class="real_case">
-
-                <!-- Image de réalisation -->
-                <img src="https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/ef88dadca13badf9418b26b15aaa431a.jpg?v=1683014991626" alt=""
-                class="img_real">
-
-                <!-- Div texte -->
-                <div class="real_txt white ">
-                    <h3 class="josefin-sans-gras">Création de personnage de jeu vidéo</h3>
-                    <div class="separateur_mini"></div>
-                    <p class="josefin-sans">Nous avons aidé notre client à créer son propre personnage de jeu vidéo, en lui fournissant des conseils personnalisés pour le design et l'histoire.</p>
-                    <a href="" class="btn btn_mini"><i class="fa-solid fa-plus"></i></a>
-
-                </div>
-            </div>
 
 
         </section>
@@ -176,53 +99,7 @@
 </div>
 
 
-<section class="section_temoignage ">
-
-    <div class="flex align_center justify_center temoignage_div">
-
-        <!-- Témoignage Carte -->
-        <div class="carte_temoignage flex">
-            <div class="txt_temoignage" data-aos="fade-up-right" data-aos-duration="800">
-                <p class="prenom_temoignage josefin-sans-gras">Prénom</p>
-                <p class="typePres_temoignage josefin-sans-gras">Création de personnages</p>
-                <p class="commentaire_temoignage josefin-sans">Je suis très satisfait de la qualité de travail fournie par l'équipe de création de personnages. Leur attention aux détails et leur créativité ont donné vie à des personnages incroyables.</p>
-            </div>
-            
-
-            <!-- Témoignage star rating -->
-            <div class="rating_temoignage flex" data-aos="fade-up-left" data-aos-duration="1000">
-                <label class="star">★</label>
-                <label class="star">★</label>
-                <label class="star">★</label>
-                <label class="star">☆</label>
-                <label class="star">☆</label>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="flex align_center justify_center">
-
-        <!-- Témoignage star rating -->
-        <div class="rating_temoignage">
-            <label for="">★</label>
-            <label for="">★</label>
-            <label for="">★</label>
-            <label for="">☆</label>
-            <label for="">☆</label>
-        </div>
-
-        <!-- Témoignage Carte -->
-        <div class="carte_temoignage ">
-            <p class="prenom_temoignage josefin-sans-gras">Josias</p>
-            <p class="typePres_temoignage josefin-sans-gras">Aide sur Ultrakill</p>
-            <p class="commentaire_temoignage josefin-sans">Je suis très satisfait de la qualité de travail fournie par l'équipe de création de personnages. Leur attention aux détails car je suis une merde à ce jeu.</p>
-        </div>
-
-    </div>
-
-
-</section>
+<section class="section_temoignage "></section>
 
 <!-- Section Partenaires -->
 
@@ -233,13 +110,7 @@
 </div>
 
 
-<section class="flex section_partenaires align_center justify_center wrap" id="partenaires_content">
-
-    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c6/FromSoftware_Logo.svg/2560px-FromSoftware_Logo.svg.png" 
-    alt=""
-    class="partenaire_img">
-
-</section>
+<section class="flex section_partenaires align_center justify_center wrap" id="partenaires_content"></section>
 
 <!-- Section Contact -->
 
