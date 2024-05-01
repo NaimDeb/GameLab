@@ -222,7 +222,7 @@ function addTemoignage(data){
                 <div class="carte_temoignage flex" data-aos="fade-up-right">
 
                     <!-- Image client -->
-                    <div class="img_client_placeholder img_client_left">C</div>
+                    <div class="img_client_placeholder img_client_left">${retournePremiereLettre(element.prenom)}</div>
 
                     ${temoignage_txt}
 
