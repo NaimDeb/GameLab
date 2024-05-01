@@ -26,7 +26,7 @@ const headerColor = "header_color";
 
 window.addEventListener("scroll", () => {
     const scrollActuel = window.scrollY;
-    if (scrollActuel > 250) {
+    if (scrollActuel > 100) {
         header.classList.add(toggleClass)
         header.classList.remove(headerColor)
     }
@@ -36,7 +36,19 @@ window.addEventListener("scroll", () => {
     }
 });
 
-//Rajouter photo sur témoignage avec première lettre du nom (element.nom[0])
+
+// Pop up lorsqu'on clique sur le bouton dans la section contact
+
+const montrerPopUp = document.querySelector('.btnMail')
+const popUpContainer = document.querySelector('.popup_container')
+const fermerPopUp = document.querySelector('.btn_close')
+
+montrerPopUp.onclick = () => {
+    popUpContainer.classList.add('active')
+}
+fermerPopUp.onclick = () => {
+    popUpContainer.classList.remove('active')
+}
 
 // Envoie une requête GET à l'URL de l'api pour récupérer des données
 fetch("gameLab.json")

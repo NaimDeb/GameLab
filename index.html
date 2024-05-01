@@ -66,9 +66,9 @@
 
     <!-- Separateur de section -->
         <div class="div_categorie" id="Services">
-            <div class="trianglehaut"></div>
+            <a href="#"><div class="trianglehaut"></div></a>
             <h3 class=" divtext white vt323 container">Services</h3>
-            <div class="trianglebas"></div>
+            <a href="#Realisations"><div class="trianglebas"></div></a>
         </div>
 
 
@@ -81,9 +81,9 @@
 
     <!-- Separateur de section -->
         <div class="div_categorie" id="Realisations">
-            <div class="trianglehaut"></div>
+            <a href="#Services"><div class="trianglehaut"></div></a>
             <h3 class=" divtext white vt323">Réalisations</h3>
-            <div class="trianglebas"></div>
+            <a href="#Temoignages"><div class="trianglebas"></div></a>
         </div>
 
 
@@ -100,9 +100,9 @@
 
     <!-- Separateur de section -->
     <div class="div_categorie" id="Temoignages">
-        <div class="trianglehaut"></div>
+        <a href="#Realisations"><div class="trianglehaut"></div></a>
         <h3 class=" divtext white vt323">Témoignages clients</h3>
-        <div class="trianglebas"></div>
+        <a href="#Partenaires"><div class="trianglebas"></div></a>
     </div>
 
 
@@ -112,9 +112,9 @@
 
     <!-- Separateur de section -->
     <div class="div_categorie" id="Partenaires">
-        <div class="trianglehaut"></div>
+        <a href="#Temoignages"><div class="trianglehaut"></div></a>
         <h3 class=" divtext white vt323">Nos partenaires</h3>
-        <div class="trianglebas"></div>
+        <a href="#Contact"><div class="trianglebas"></div></a>
     </div>
 
 
@@ -124,7 +124,7 @@
 
     <!-- Separateur de section -->
     <div class="div_categorie" id="Contact">
-        <div class="trianglehaut"></div>
+        <a href="#Partenaires"><div class="trianglehaut"></div></a>
         <h3 class=" divtext white vt323">Nous contacter</h3>
         <div class="trianglebas"></div>
     </div>
@@ -136,8 +136,8 @@
         <p><i class="fa-solid fa-map"></i> 7 Rue Terrenoire, Saint-Etienne, France</p>
         <p><i class="fa-solid fa-phone"></i> +33 7 55 55 55 55 </p>
 
-        <!-- Bouton emmenant vers le form -->
-        <a href="form.html" class="btnMail">Envoyez nous un mail</a>
+        <!-- Bouton pop up formulaire (vu sur https://www.youtube.com/watch?v=VO3HOri1TEw) -->
+        <button class="btnMail josefin-sans-gras">Envoyez nous un mail !</button>
 
         <!-- Boutons vers médias sociaux -->
         <nav class="flex contact_media">
@@ -150,6 +150,45 @@
 
     <!-- Intégration map Leaflet -->
     <div id="map"></div>
+
+
+    <!-- Contenu du pop up -->
+    <div class="popup_container">
+        <div class="popup_box">
+            <p>Formulaire de contact</p>
+            <form action="#Contact">
+                <label for="Nom">Nom / Prénom</label>
+                <input type="text" id="input_Nom" name="Nom" class="input input_small"/>
+
+                <label for="Prenom">Entreprise</label>
+                <!-- pattern en regex qui demande un @, un ., 2 lettres après le point, et limite certains caractères spéciaux avant et après le @ -->
+                <input type="text" id="input_entreprise" name="Entreprise" pattern="^[a-zA-Z0-9._+-]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,}$" class="input input_small"/>
+
+                <label for="Prenom">E-mail</label>
+                <input type="email" id="input_mail" name="mail" class="input input_small"/>
+
+                <label for="Demande">Demande</label>
+                <select name="Choix_Demande" id="select_demande" class="josefin-sans-gras">
+                    <option value="Informations">Demande d'informations ou de renseignements</option>
+                    <option value="Devis">Demande de devis</option>
+                    <option value="Partenariat">Demande de partenariat</option>
+                    <option value="Autre">Autre</option>
+                </select>
+
+
+                <label for="Prenom">Message</label>
+                <textarea name="Message" id="input_msg" cols="10" rows="20" class="input input_big"></textarea>
+
+
+
+                <div class="flex btn_popup ">
+                <button class="btn_close btn josefin-sans-gras">Annuler</button>
+                <input type="submit" value="Envoyer" class="btn_envoi btn josefin-sans-gras">
+                </div>
+            </form>
+        </div>
+    </div>
+
 
 </section>
 
