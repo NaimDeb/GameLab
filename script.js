@@ -198,7 +198,7 @@ function addTemoignage(data){
             <div class="flex temoignage_div">
 
                 
-                <div class="carte_temoignage carte_temoignage_right flex" data-aos="fade-up-left">
+                <div class="carte_temoignage carte_temoignage_right flex" data-aos="fade-up-left" data-aos-delay=${(dummy * 50) - 50}>
 
                     <!-- Image client -->
                     <div class="img_client_placeholder img_client_right">${retournePremiereLettre(element.prenom)}</div>
@@ -219,7 +219,7 @@ function addTemoignage(data){
             <div class="flex temoignage_div">
 
             
-                <div class="carte_temoignage flex" data-aos="fade-up-right">
+                <div class="carte_temoignage flex" data-aos="fade-up-right" data-aos-delay=${(dummy * 50) - 50}>
 
                     <!-- Image client -->
                     <div class="img_client_placeholder img_client_left">${retournePremiereLettre(element.prenom)}</div>
