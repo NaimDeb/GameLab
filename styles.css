@@ -30,7 +30,7 @@
 
     .justify_center{
         justify-content: center;
-        gap: 100px;
+        gap: 80px;
     }
 
     .wrap{
@@ -515,8 +515,8 @@
 }
 
 .partenaire_img{
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     object-fit: scale-down;
     filter: grayscale(1);
     transition: all 0.33s ease;
